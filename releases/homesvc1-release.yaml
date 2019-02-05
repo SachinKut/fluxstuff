@@ -1,3 +1,4 @@
+---
 apiVersion: flux.weave.works/v1beta1
 kind: HelmRelease
 metadata:
@@ -12,4 +13,4 @@ spec:
     path: charts/homecharts
   releaseName: homesvc1-default
   values:
-    image: sachakstestreg.azurecr.io/hometrialsvc1:1.0.0
+    image: sachakstestreg.azurecr.io/hometrialsvc1:1.0.1
