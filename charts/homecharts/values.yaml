@@ -1,0 +1,12 @@
+replicaCount: 2
+image: sachakstestreg.azurecr.io/hometrialsvc1:1.0.0
+service:
+  internalPort: 80
+  externalPort: 80
+  name: svc1-http
+  type: LoadBalancer
+# service:
+#   internalPort: 80
+#   externalPort: 80
+#   name: http-port
+#   type: LoadBalancer
