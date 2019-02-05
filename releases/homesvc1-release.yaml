@@ -13,4 +13,4 @@ spec:
     path: charts/homecharts
   releaseName: homesvc1-default
   values:
-    image: sachakstestreg.azurecr.io/hometrialsvc1:1.0.1
+    image: sachakstestreg.azurecr.io/hometrialsvc1:1.0.2
