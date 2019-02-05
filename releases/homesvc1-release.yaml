@@ -8,7 +8,7 @@ metadata:
     flux.weave.works/tag.chart-image: glob:1.0.*
 spec:
   chart:
-    git: git@github.com:SachinKut/homefluxstuff.git
+    git: git@github.com:SachinKut/fluxstuff.git
     path: charts/homecharts
   releaseName: homesvc1-default
   values:
