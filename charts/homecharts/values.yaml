@@ -1,5 +1,5 @@
 replicaCount: 2
-image: sachakstestreg.azurecr.io/hometrialsvc1:1.0.0
+image: GoingtobeOverridden
 service:
   internalPort: 80
   externalPort: 80
